@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Selectors</title>
+</head>
+<body>
+    <h1>Selectors </h1>
+
+    <p class="standard"> p <br>
+        Селектори елементу
+        Як селектор може виступати будь-який елемент HTML, для якого визначаються правила форматування, такі як: колір, фон, розмір тощо. > Стилізація приклад 1 та заголовки
+        
+    </p>
+
+    <p class="standard">#id <br>
+        Ідентифікатор визначає унікальне ім'я елемента, яке використовується для зміни його стилю і звернення до нього через скрипти. > Стилізація приклад 2
+    </p>
+
+    <p class="standard">class <br>
+        Класи застосовують, коли необхідно визначити стиль для одного або декількох елементів веб-сторінки. Елементи при цьому можуть бути різними, але мати частково або повністю схожі елементи оформлення. У коді HTML ім'я класу визначається через атрибут class. > Стилізація приклад 3
+    </p>
+    
+    <p class="standard"> .class1.class2 <br>
+        Мультикласи
+        До будь-якого елемента одночасно можна додати кілька класів, перераховуючи їх в атрибуті class через пробіл. У цьому разі до елемента застосовується стиль, описаний у правилах для кожного класу. Оскільки під час додавання кількох класів вони можуть містити однакові стильові властивості, але з різними значеннями, то береться значення в класу, який описано в коді нижче. > Стилізація приклад 4
+    </p>
+
+    <p class="standard"> A B <br>
+        Вкладені селектори
+    Під час створення веб-сторінки часто доводиться вкладати одні елементи всередину інших. Щоб стилі цих елементів використовувалися коректно,допоможуть вкладені селектори. Наприклад, встановити стиль для b тільки коли він розташовується всередині контейнера. Таким чином можна одночасно встановити стиль для окремого елемента, а також елемента, який знаходиться всередині іншого. > Стилізація приклад 5
+    </p>
+
+    <p class="standard">A > B <br>
+            Дочірні селектори
+            Дочірнім називається елемент, який безпосередньо розташовується всередині батьківського елемента. Який елемент виступає батьківським, а який його нащадком легко з'ясувати за допомогою дерева елементів - так називається структура відносин елементів документа між собою > Приклад 6
+
+    </p>
+
+    <p class="standard">
+
+    </p>
+
+    <h2>Стилізація приклади</h2>
+
+    <p>Приклад 1 <br>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum animi, perspiciatis, maxime natus nisi ipsa officiis est deleniti similique esse vitae atque, quas placeat delectus adipisci. Harum libero necessitatibus tenetur.
+        
+    </p>
+
+    <p id="first">Приклад 2 <br>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis libero optio facilis vitae quasi vero veritatis qui numquam veniam cum magni aliquam ea dolor illo fugit, deleniti adipisci reprehenderit repellat.
+
+    <p class="text">Приклад 3 <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam alias animi omnis, nam ipsam quasi, quos a corrupti sequi at labore quisquam veniam quo id iusto est, inventore consequuntur aliquid?
+    </p>
+    
+    <p class="text text_2"> Приклад 4 <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi facilis corporis sint voluptatibus numquam cum nulla, porro, soluta esse minus, animi quo magni! Doloribus inventore sed officiis ipsum harum necessitatibus?
+    </p>
+
+    <p> Приклад 5<br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio inventore explicabo commodi voluptates consectetur consequuntur culpa voluptas natus repudiandae at, eligendi exercitationem aut sed asperiores unde omnis tempore nihil! Qui! <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi vitae quo odio harum? Corporis perspiciatis impedit harum accusantium, debitis sequi asperiores enim aspernatur tenetur est, maxime, ipsa iure fuga minima?</span>
+    </p>
+
+    <div>
+        <p class="text">Приклад 6 <br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio mollitia obcaecati vel, iste soluta fugiat repudiandae nulla facere perferendis unde similique quaerat numquam perspiciatis neque distinctio cupiditate omnis commodi deleniti?
+        </p>
+    </div>
+
+
+    <p class="special">Lorem ipsum dolor, sit amet consectetur adipisicing elit. A at accusamus doloremque eum error deserunt sit officia tenetur corporis, <span class="scam">odio vel similique saepe inventore natus dolor aspernatur dolorem nulla fugit.</span></p>
+
+    <p class="scam">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla a reprehenderit aperiam maxime veniam, quos fuga est impedit consectetur rem, vitae corrupti earum quas modi neque vel? Qui, excepturi soluta?</p>
+
+    <p class="blue">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam, quas illum error nisi est ipsa aliquid quidem mollitia blanditiis earum quod eligendi, atque dignissimos id illo provident voluptatibus nostrum at?</p>
+
+    <p class="text black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus doloremque quisquam fugiat ducimus sint fuga, vitae obcaecati repellendus omnis, illo veritatis deleniti quasi dignissimos praesentium ex reprehenderit dicta numquam eaque!</p>
+
+    <div class="color">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati blanditiis ab ducimus mollitia voluptate, praesentium totam quasi consequuntur vel non nobis nihil ut asperiores quo, aut corporis laborum rerum nulla?</p>
+    </div>
+</body>
+</html>

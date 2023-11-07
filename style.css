@@ -1,0 +1,67 @@
+h1,h2{
+    color: brown;
+    text-align: center;
+}
+
+
+h2{
+    color: #696969	;
+    text-decoration:underline ;
+}
+
+p{
+    background-color: aliceblue;
+    color: brown;
+}
+
+.standard{
+    color: black;
+    background-color: #FFFFFF;
+}
+
+#first{
+    background-color:#006400;
+    color: #FF00FF		;
+}
+
+.text{
+    background-color: #4B0082;
+    color:aquamarine
+}
+
+.text_2{
+    font-size: 25px;
+}
+
+p span{
+    background-color: black;
+    color: #7FFF00;
+}
+
+div>.text{
+    color: red;
+}
+
+
+.blue{
+    color: blue;
+}
+
+.text.black{
+    color: black;
+    background-color: antiquewhite;
+}
+
+.color p{
+    color: cadetblue;
+}
+
+.special{
+color: #2F4F4F;
+}
+
+.scam:hover{
+    color: black;
+    background-color: yellow;
+}
+
